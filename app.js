@@ -19,6 +19,7 @@ function agregarAmigo(){
         else{
             listaAmigos.push(nombreDeUsuario);
             limpiarCaja();
+            asignarTextoElemento("h2","Digite el nombre de sus amigos");
                 console.log(listaAmigos);
                 
             }
@@ -35,3 +36,4 @@ function sortearAmigo(){
         console.log(nombreSorteado);
     }
 }
+
